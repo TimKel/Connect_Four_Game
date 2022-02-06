@@ -1,3 +1,4 @@
+
 #board td {
     width: 60px;
     height: 60px;
@@ -12,13 +13,14 @@
     border-radius: 50%;
 }
 
-.piece.p1 {
+/* No longer necessary after refactoring and adding p1 p2 html */
+/* .piece.p1 {
     background-color: red;
 }
 
 .piece.p2{
     background-color: blue;
-}
+} */
 
 /* column-top is table row of clickable areas for each column */
 
