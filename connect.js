@@ -1,9 +1,9 @@
 
-const WIDTH = 7;
-const HEIGHT = 6;
+// const WIDTH = 7;
+// const HEIGHT = 6;
 
-let currPlayer = 1; //initiates active player. P1 or P2
-let board = []; //array of rows, each row is an array of cells (board[y][x])
+// let currPlayer = 1; //initiates active player. P1 or P2
+// let board = []; //array of rows, each row is an array of cells (board[y][x])
 class Game {
     constructor(p1, p2, height = 6, width = 7){
         this.players = [p1,p2];
@@ -161,5 +161,6 @@ document.getElementById('start-game').addEventListener('click', () => {
     let p2 = new Player(document.getElementById('p2-color').value);
     new Game(p1, p2);
 });
-makeBoard();
-makeHTMLBoard();
+// makeBoard();
+// makeHTMLBoard();
+
